@@ -2,4 +2,4 @@
 build/
 dist/
 build/bdist.win32/
-*egg*
+pyalgo.egg-info/
