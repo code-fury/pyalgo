@@ -1,6 +1,7 @@
 from setuptools import setup
 
 setup(
+    name="pyalgo",
     author="code-fury",
     author_email="d.binhnhu@gmail.com",
     description="Implementation of popular sorting and Search algorithms.",
