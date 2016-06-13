@@ -55,7 +55,9 @@ There are 4 sorting algorithms are implemented: merge sort, heap sort, quick sor
 **heap_sort(array, compare=lambda x, y: x > y)**
 Return the sorted array. The order depends on the compare function.
 Best: O(n log n)
+
 Worst: O(n log n)
+
 Avg: O(n log n)
 #####Example
 ```python
@@ -69,7 +71,9 @@ Avg: O(n log n)
 **quick_sort(array, compare=lambda x, y: x > y)**
 Return the sorted array. The order depends on the compare function.
 Best: O(n log n)
+
 Avg: O(n log n)
+
 Worst: O(n^2)
 #####Example
 ```python
@@ -83,7 +87,9 @@ Worst: O(n^2)
 **merge_sort(array, compare=lambda x, y: x > y)**
 Return the sorted array. The order depends on the compare function.
 Best: O(n log n)
+
 Avg: O(n log n)
+
 Worst: O(n log n)
 #####Example
 ```python
@@ -96,8 +102,11 @@ Worst: O(n log n)
 ####Insertion sort
 **insertion_sort(array, compare=lambda x, y: x > y)**
 Return the sorted array. The order depends on the compare function.
+
 Best: O(n)
+
 Avg: O(n^2)
+
 Worst: O(n^2)
 #####Example
 ```python
