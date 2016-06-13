@@ -2,3 +2,4 @@
 build/
 dist/
 build/bdist.win32/
+*egg*
