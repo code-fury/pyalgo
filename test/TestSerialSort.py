@@ -21,7 +21,6 @@ class TestSerialSort(unittest.TestCase):
         self.assertTrue(self.result == serial_sort.quick_sort(self.array))
 
     def test_insertion_sort(self):
-        print serial_sort.insertion_sort(self.array)
         self.assertTrue(self.result == serial_sort.insertion_sort(self.array))
 
 if __name__ == "__main__":
